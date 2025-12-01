@@ -1,3 +1,3 @@
-# Dots
+# dots
 
 My personal dotfiles.
