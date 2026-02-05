@@ -1,0 +1,3 @@
+addon@darkreader.org: Dark Reader
+jid1-D7momAzRw417Ag@jetpack: Wikiwand - knowledge, with context
+uBlock0@raymondhill.net: uBlock Origin
