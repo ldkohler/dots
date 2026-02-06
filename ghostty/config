@@ -3,9 +3,9 @@ font-family = SFMono Nerd Font
 font-style = Medium
 font-size = 20
 
-# theme = dark:github-dark,light:github-light
-# theme = dark:monokai-pro-octagon,light:monokai-pro-spectrum
-theme = catppuccin-mocha
+# theme = dark:GitHub Dark,light:GitHub Light
+# theme = dark:Monokai Pro Octagon,light:Monokai Pro Light Sun
+theme = Catppuccin Mocha
 
 cursor-style-blink = false
 
