@@ -1,13 +1,3 @@
-/* Zen value: true
- * Disables weather display on new tab page - improves privacy by preventing location tracking */
-user_pref("browser.newtabpage.activity-stream.showWeather", false);
-
-/* Zen value: false
- * Enables the "End Private Session" button during private browsing */
-user_pref("browser.privatebrowsing.resetPBM.enabled", true);
-
-/* Zen value: 15000
- * Sets session save interval to 60 seconds - reduces disk writes, balancing data preservation with performance */
 user_pref("browser.sessionstore.interval", 60000);
 
 /* Zen value: 0
@@ -43,6 +33,9 @@ user_pref("security.pki.crlite_mode", 2);
 user_pref("signon.privateBrowsingCapture.enabled", false);
 
 /* UI */
-user_pref("zen.tabs.show-newtab-vertical", false);
+user_pref("zen.tabs.show-newtab-vertical", true);
 user_pref("zen.theme.border-radius", 10);
 user_pref("zen.theme.content-element-separation", 5);
+
+user_pref("browser.tabs.insertAfterCurrent", true);
+user_pref("browser.tabs.insertRelatedAfterCurrent", true);
