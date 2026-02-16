@@ -34,8 +34,10 @@ user_pref("signon.privateBrowsingCapture.enabled", false);
 
 /* UI */
 user_pref("zen.tabs.show-newtab-vertical", true);
-user_pref("zen.theme.border-radius", 10);
-user_pref("zen.theme.content-element-separation", 5);
+user_pref("zen.theme.border-radius", 0);
+user_pref("zen.theme.content-element-separation", 0);
 
 user_pref("browser.tabs.insertAfterCurrent", true);
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);
+
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);

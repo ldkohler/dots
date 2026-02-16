@@ -41,10 +41,3 @@ zen-workspace[active] tab:not([zen-glance-tab="true"]) {
   }
 }
 
-.zen-current-workspace-indicator {
-  display: none !important;
-}
-
-#zen-media-controls-toolbar {
-  display: none !important;
-}
