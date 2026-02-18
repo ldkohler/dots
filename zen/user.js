@@ -41,3 +41,4 @@ user_pref("browser.tabs.insertAfterCurrent", true);
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);
 
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("zen.workspaces.container-specific", false);

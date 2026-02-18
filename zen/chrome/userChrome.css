@@ -6,13 +6,13 @@ tabs {
   counter-reset: tab-counter;
 }
 
-hbox.zen-essentials-container tab:not([zen-glance-tab="true"]),
+
 zen-workspace[active] tab:not([zen-glance-tab="true"]) {
   counter-increment: tab-counter;
 }
 
 @media (-moz-bool-pref: "zen.view.sidebar-expanded") {
-  tab:not([zen-glance-tab="true"]) > .tab-stack > .tab-content::before {
+  zen-workspace[active] tab:not([zen-glance-tab="true"]) > .tab-stack > .tab-content::before {
     content: counter(tab-counter);
     font-weight: normal;
     font-size: 100%;
@@ -29,7 +29,7 @@ zen-workspace[active] tab:not([zen-glance-tab="true"]) {
 }
 
 @media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
-  tab:not([zen-glance-tab="true"]) > .tab-stack > .tab-content::before {
+  zen-workspace[active] tab:not([zen-glance-tab="true"]) > .tab-stack > .tab-content::before {
     content: counter(tab-counter) "";
     position: absolute;
     top: 4px;
@@ -40,4 +40,3 @@ zen-workspace[active] tab:not([zen-glance-tab="true"]) {
     color: inherit;
   }
 }
-

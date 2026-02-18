@@ -5,6 +5,8 @@ font-size = 20
 
 
 theme = Catppuccin Mocha
+# theme = Monokai Pro Octagon
+# theme = GitHub Dark
 
 # theme = dark:GitHub Dark,light:GitHub Light
 # theme = dark:Monokai Pro Octagon,light:Monokai Pro Light Sun
